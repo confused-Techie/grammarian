@@ -1,0 +1,6 @@
+@use 'styles' as styles;
+
+html {
+  color: styles.$text-primary;
+  background-color: styles.$bg-primary;
+}
