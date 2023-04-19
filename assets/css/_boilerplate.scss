@@ -1,0 +1,49 @@
+/**
+  Recommended CSS Boilerplate found:
+  https://blog.logrocket.com/what-should-modern-css-boilerplate-look-like/
+*/
+
+/* Reset the Box Model to make it easier to declare box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Force Images to stay within a container, disallow default inline images */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Enhance Link Underlines */
+a {
+  /* Places underlines below the descenders */
+  text-underline-position: under;
+
+  /* Sets the thickness as a percentage of the font size */
+  text-decoration-thickness: 8;
+}
+
+/* Enable smooth scrolling */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Remove focus outline for mouse, but keep for keyboard */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Apply pointer to cursor on most interactive elements */
+label,
+button,
+select,
+summary,
+[type=radio],
+[type=submit],
+[type=checkbox] {
+  cursor: pointer;
+}
