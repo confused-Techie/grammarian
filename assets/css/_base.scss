@@ -4,3 +4,15 @@ html {
   color: styles.$text-primary;
   background-color: styles.$bg-primary;
 }
+
+.compat-data .syntax-highlight,
+.compat-data .autocomplete {
+  float: left;
+  width: 50%;
+}
+
+.compat-data:after {
+  content: "";
+  display: table;
+  clear: both;
+}
