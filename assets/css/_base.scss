@@ -5,14 +5,18 @@ html {
   background-color: styles.$bg-primary;
 }
 
-.compat-data .syntax-highlight,
-.compat-data .autocomplete {
-  float: left;
-  width: 50%;
+table {
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.compat-data:after {
-  content: "";
+.collection {
   display: table;
-  clear: both;
+}
+
+.card {
+  float: left;
+  width: 45%;
+  border: styles.$card-border;
+  margin-left: 2.5%;
 }

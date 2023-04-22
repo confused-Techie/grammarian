@@ -1,29 +1,10 @@
-<div class="compat-data">
-<div class="syntax-highlight">
 
-#### Syntax Highlighting
+| | Pulsar | VSCode | TextMate | Sublime Text | Brackets | Notepad++ |
+| --- | --- | --- | --- | --- | --- | --- |
+| Syntax Highlighting | :white_check_mark:[^psh1] | :white_check_mark:[^vscsh1] | :grey_question: | :x: | :x: | :x: |
+| Autocomplete | :grey_question: | :grey_question: | :grey_question: | :x: | :x: | :x: |
+| Linting | :grey_question: | :grey_question: | :grey_question: | :x: | :x: | :x: |
+| Debugging | :grey_question: | :grey_question: | :grey_question: | :grey_question: | :grey_question: | :grey_question: |
 
-| Software | Support | Resources |
-| ---   | ---   | --- |
-| Pulsar | :white_check_mark: | [`language-javascript`]() |
-
-</div>
-
-<div class="autocomplete">
-
-#### Autocomplete
-
-| Software | Support | Resources |
-| --- | --- | --- |
-| Pulsar | :x: | |
-
-</div>
-
-</div>
-
-| | Pulsar |
-| --- | --- |
-| Syntax Highlighting | :white_check_mark:[^p1] |
-| Autocomplete | :x: |
-
-[^p1]: Provided by [`language-javascript`]().
+[^psh1]: Pulsar JavaScript Syntax Highlighting Provided by the built in package [`language-javascript`](https://github.com/pulsar-edit/pulsar/tree/master/packages/language-javascript).
+[^vscsh1]: VSCode JavaScript Syntax Highlighting support built in.

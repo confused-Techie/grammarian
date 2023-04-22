@@ -1,6 +1,9 @@
 ---
 title: JavaScript
 view: lang
+exts:
+  - js
+  - ejs
 ---
 
 !!!include(docs/language/JavaScript/summary.md)!!!

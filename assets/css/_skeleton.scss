@@ -128,7 +128,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: styles.$font-family;
   color: styles.$text-primary; }
 
 
@@ -162,9 +162,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: styles.$link-color; }
 a:hover {
-  color: #0FA0CE; }
+  color: styles.$link-hover-color; }
 
 
 /* Buttons
@@ -177,7 +177,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #555;
+  color: styles.$input-color;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -188,7 +188,7 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #bbb;
+  border: styles.$input-border;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -201,8 +201,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
+  color: styles.$input-focus-color;
+  border-color: styles.$input-focus-border-color;
   outline: 0; }
 .button.button-primary,
 button.button-primary,

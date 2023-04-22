@@ -10,4 +10,20 @@ With the primary focus being on finding out what programs and websites support t
 
 Explore different languages below!
 
+<div class="collection">
+
+<div class="card">
+
+#### [JavaScript](./language/JavaScript/)
+
 !!!include(docs/language/JavaScript/summary.md)!!!
+
+</div>
+
+<div class="card">
+
+#### [CoffeeScript](./langauge/CoffeeScript)
+
+</div>
+
+</div>
